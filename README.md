@@ -15,4 +15,4 @@ Below are some examples code and logic I have for this project.
 ## MainMenu
   For my Main menu I create an empty level and created a user widget and titled it WB_Title. I first started off by dragging in a Canvas panel where I would later create my buttons to play or quit the game if the player wants.
 I kept the title screen basic and focused prodomentily on making her the play and quit buttons work. When the player hit the play button it will load the main game scene title Level01.
-![Project Screenshot](https://github.com/vfernandes617/Live-Project-UnrealEngine/blob/main/Images/title%20screen.png)
+![Project Screenshot](https://github.com/vfernandes617/Live-Project-UnrealEngine/blob/main/Images/Widget%20logic.png)
