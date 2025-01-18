@@ -55,4 +55,6 @@ New Transform: A specific transform (position, rotation, scale) passed in via a 
 ![Project Screenshot](https://github.com/vfernandes617/Live-Project-UnrealEngine/blob/main/Images/Respawn.png)
 ---
 ## Timer
-To Track the players time during their track through the game I used a Widget and called it Timer_WB
+To Track the players time during their track through the game I used a Widget and called it Timer_WB. The blueprint starts off with  an Event Construct node which triggers as soon as the player starts the game. It connects to the "Set Timer by Event" node this node is set to call the "IncreaseTime custom event node every 1 second. With the looping box checked it ensures the timer repeats indefinitely. The event is executed every second by the timer the logic increments a time variable "Sec" and handles updating the display.
+The Sec variable is incremented by 1 each time teh IncreaseTime even is called. Once the seconds reached 60 it will branch and start back at zero and increment the variable minute by 1.
+![Project Screenshot](https://github.com/vfernandes617/Live-Project-UnrealEngine/blob/main/Images/Timer.png)
