@@ -12,10 +12,12 @@ Below are some examples code and logic I have for this project.
 - [CheckPoint](#Checkpoint)
 - [Ragdoll effect](#Ragdoll)
 - [Proficiencies](#Proficiencies)
- MainMenu
+  
+## MainMenu
 
-  For my Main menu I create an empty level and created a user widget and titled it WB_Title. I first started off by dragging in a Canvas panel where I would later create my buttons to play or quit the game if the player wants.
+For my Main menu I create an empty level and created a user widget and titled it WB_Title. I first started off by dragging in a Canvas panel where I would later create my buttons to play or quit the game if the player wants.
 I kept the title screen basic and focused prodomentily on making her the play and quit buttons work. When the player hit the play button it will load the main game scene title Level01.
+  
 ---
 ![Project Screenshot](https://github.com/vfernandes617/Live-Project-UnrealEngine/blob/main/Images/Widget%20logic.png)
 ---
@@ -74,5 +76,9 @@ The Sec variable is incremented by 1 each time teh IncreaseTime even is called. 
 The checkpoint was created to have a save point so the player can respawn closer to the end goal. To trigger the checkpoint I created an on component begin overlap that activates whenever the thirdperson character gets close to the flag than used a Get World Transform to pin point the exact location of the player character and respawn it at that location.
 
 ## Ragdoll
+---
+![Project Screenshot](https://github.com/vfernandes617/Live-Project-UnrealEngine/blob/main/GIFs/RAgdoll.gif)
+---
 
+The Ragdoll effect was created so whenever the player character hit on obstacle they will go into a ragdoll and respawn. This is so the player character knows that they hit an object they shouldnt have and to avoid hitting. 
 
