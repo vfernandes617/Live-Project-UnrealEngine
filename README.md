@@ -35,15 +35,15 @@ For my sprint Logic I created an enhanced InputAction button using the SHIFT key
 ## Respawn
 I set my blueprint in the following order.
 1. Custom Event: Respawn
-Purpose: This is a custom event named Respawn. It acts as the entry point for this logic, triggered when something (like the player or a component) needs to respawn or reset.
+Purpose: This is a custom event named Respawn. It acts as the entry point for this logic, triggered when something needs to respawn or reset.
 2. Set Node: Ragdoll?
-Purpose: This  toggles a variable called Ragdoll? (a Boolean).
-Effect: The Boolean controls whether the character or object is in a ragdoll state, which usually means physics simulation is enabled. Setting this variable here might signal the system to stop ragdolling during the respawn process.
+Purpose: This  toggles a variable called Ragdoll?.
+Effect: The Boolean controls whether the character or object is in a ragdoll state, which usually means physics simulation is enabled. Setting this variable here will signal the system to stop ragdolling during the respawn process.
 3. Attach Component to Component
-Purpose: This node reattaches a component (e.g., a character's skeletal mesh or a detached part) to a parent component.
+Purpose: This node reattaches a component to a parent component.
 Parameters:
-Target: The component being reattached (likely set to a skeletal mesh or physical object).
-Parent: Specifies the component to which it will attach. In this case, it's attaching to the pelvis socket of the parent (likely part of a skeleton or mesh).
+Target: The component being reattached.
+Parent: Specifies the component to which it will attach. In this case, it's attaching to the pelvis socket of the parent.
 Location/Rotation Rules: Set to Keep Relative, meaning the component retains its relative position and orientation when reattached.
 Weld Simulated Bodies: Checked, so the physics bodies of the two components will merge for realistic behavior.
 4. Set Relative Location and Rotation
