@@ -82,3 +82,11 @@ The checkpoint was created to have a save point so the player can respawn closer
 
 The Ragdoll effect was created so whenever the player character hit on obstacle they will go into a ragdoll and respawn. This is so the player character knows that they hit an object they shouldnt have and to avoid hitting. 
 
+## Proficiencies
+---
+Other profeciencies I learned while creating this game.This includes
+Collaborated with a team of developers in a Scrum environment, contributing to sprint planning, retrospectives, and daily stand-ups to improve project efficiency.
+Adapted quickly to ongoing development processes by mastering custom naming conventions, workflows in Azure DevOps, and leveraging Git for version control.
+Identified and addressed potential issues proactively, maintaining open communication with the project manager to prevent downtime and ensure seamless development progress.
+Provided consistent support to team members, including troubleshooting challenges during stand-up meetings. For instance, assisted a colleague in resolving a 2D collision detection issue, leading to a faster resolution.
+
